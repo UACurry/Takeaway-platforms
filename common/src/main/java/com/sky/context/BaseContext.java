@@ -1,5 +1,6 @@
 package com.sky.context;
 
+// 用于 存储 jwt token 的 id
 public class BaseContext {
 
     public static ThreadLocal<Long> threadLocal = new ThreadLocal<>();
